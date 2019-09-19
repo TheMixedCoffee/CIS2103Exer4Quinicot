@@ -21,12 +21,12 @@ public class Circle {
         // TODO code application logic here
         Circle circ = new Circle();
         System.out.println(circ.toString());
-        System.out.println("Area is =" + circ.getArea());
-        System.out.println("Circumference is =" + circ.getCircumference());
+        System.out.println("Area is = " + circ.getArea());
+        System.out.println("Circumference is = " + circ.getCircumference());
         Circle cle = new Circle(5);
         System.out.println(cle.toString());
         System.out.println("Area is =" + cle.getArea());
-        System.out.println("Circumference is =" + cle.getCircumference());
+        System.out.println("Circumference is = " + cle.getCircumference());
     }
     
     public Circle(){
@@ -54,6 +54,6 @@ public class Circle {
     }
     
     public String toString(){
-        return "Circle[radius=" + this.radius + "]";
+        return "Circle[radius = " + this.radius + "]";
     }
 }
