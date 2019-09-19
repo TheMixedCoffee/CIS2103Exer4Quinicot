@@ -26,8 +26,8 @@ public class Rectangle {
         rect.setLength(10);
         rect.setWidth(5);
         System.out.println(rect.toString());
-        System.out.println("Area is:"+ rect.getArea());
-        System.out.println("Perimeter is:"+ rect.getPerimeter());
+        System.out.println("Area is = "+ rect.getArea());
+        System.out.println("Perimeter is = "+ rect.getPerimeter());
         Rectangle tangle = new Rectangle(3,15);
         System.out.println(tangle.toString());
     }
@@ -66,6 +66,6 @@ public class Rectangle {
     }
     
     public String toString(){
-        return "Rectangle[length=" + this.length + ",width=" + this.width +"]";
+        return "Rectangle[length = " + this.length + ",width = " + this.width +"]";
     }
 }
